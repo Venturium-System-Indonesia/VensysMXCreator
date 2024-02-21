@@ -1,4 +1,4 @@
-_Only pacs.106.001.02 due to unpublished yet of Standard Release 2024_
+_Only camt.106.001.02 due to unpublished yet of Standard Release 2024_
 
 
 ### Sample
