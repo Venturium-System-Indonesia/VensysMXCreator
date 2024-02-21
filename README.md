@@ -36,3 +36,6 @@ _Only camt.106.001.02 due to unpublished yet of Standard Release 2024_
     perTransaction31.rcrd.chrgsBrkdwn.add(chargesBreakdown11)
     println(vensysCamt10600101.buatKeString())
 ```
+
+
+## Update Auto pakcage
