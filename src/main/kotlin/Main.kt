@@ -1,11 +1,8 @@
-
 import vensys.embryo.*
-import vensys.embryo.TotalCharges81.VensysCamt10600101
 import java.math.BigDecimal
 
-
 fun main(args: Array<String>) {
-//    val vensysCamt10600101 = VensysCamt10600101()
+//    val vensysCamt10600101 = VensysCamt10600102()
 //    // Equals tag20
 //    val perTransaction31 = ChargesPerTransaction31();
 //    perTransaction31.chrgsId = "REFERENCE-ID"
@@ -36,4 +33,9 @@ fun main(args: Array<String>) {
 //    chargesBreakdown11.tp.cd = "CHGS"
 //    perTransaction31.rcrd.chrgsBrkdwn.add(chargesBreakdown11)
 //    println(vensysCamt10600101.buatKeString())
+
+//    val mx = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:DRAFT5camt.106.001.02\"><ChrgsPmtReq><Chrgs><PerTx><ChrgsId>REFERENCE-ID</ChrgsId><Rcrd><UndrlygTx><MsgId>RELATED-REFERENCE</MsgId></UndrlygTx><TtlChrgsPerRcrd><TtlChrgsAmt Ccy=\"USD\">20</TtlChrgsAmt></TtlChrgsPerRcrd><ChrgsBrkdwn><Amt Ccy=\"USD\">20</Amt><CdtDbtInd>DBIT</CdtDbtInd><Tp><Cd>CHGS</Cd></Tp></ChrgsBrkdwn></Rcrd></PerTx></Chrgs></ChrgsPmtReq></Document>\n"
+
+
+
 }

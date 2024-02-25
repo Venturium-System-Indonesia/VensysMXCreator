@@ -41,11 +41,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link TotalCharges81.VensysCamt10600101 }
+     * Create an instance of {@link VensysCamt10600102 }
      * 
      */
-    public TotalCharges81.VensysCamt10600101 createDocument() {
-        return new TotalCharges81.VensysCamt10600101();
+    public VensysCamt10600102 createDocument() {
+        return new VensysCamt10600102();
     }
 
     /**
@@ -233,16 +233,16 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link TotalCharges81.VensysCamt10600101 }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VensysCamt10600102 }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link TotalCharges81.VensysCamt10600101 }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link VensysCamt10600102 }{@code >}
      */
     @XmlElementDecl(namespace = "urn:iso:std:iso:20022:tech:xsd:DRAFT5camt.106.001.02", name = "Document")
-    public JAXBElement<TotalCharges81.VensysCamt10600101> createDocument(TotalCharges81.VensysCamt10600101 value) {
-        return new JAXBElement<TotalCharges81.VensysCamt10600101>(_Document_QNAME, TotalCharges81.VensysCamt10600101.class, null, value);
+    public JAXBElement<VensysCamt10600102> createDocument(VensysCamt10600102 value) {
+        return new JAXBElement<VensysCamt10600102>(_Document_QNAME, VensysCamt10600102.class, null, value);
     }
 
 }
